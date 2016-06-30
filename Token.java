@@ -33,14 +33,6 @@ public class Token {
         this.priority = priority;
     }
 
-    public void setStructName(String structName) {
-        this.structName = structName;
-    }
-
-    public String getStructName() {
-        return structName;
-    }
-
     @Override
 
     public String toString() {
