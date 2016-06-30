@@ -414,50 +414,9 @@ public class Parser {
         return currentToken.getName().equals("BRACKET_CLOSE");
     }
 
-    private boolean whileKw() {
-        match();
-        return currentToken.getName().equals("WHILE_KW");
-    }
+    
 
-    private boolean curlyBracketOpen() {
-        match();
-        return currentToken.getName().equals("C_BRACKET_OPEN");
-    }
-
-    private boolean curlyBracketClose() {
-        match();
-        return currentToken.getName().equals("C_BRACKET_CLOSE");
-    }
-
-    private boolean equals() {
-        match();
-        return currentToken.getName().equals("EQUALS");
-    }
-
-    private boolean more() {
-        match();
-        return currentToken.getName().equals("MORE");
-    }
-
-    private boolean less() {
-        match();
-        return currentToken.getName().equals("LESS");
-    }
-
-    private boolean moreEquals() {
-        match();
-        return currentToken.getName().equals("MORE_EQUALS");
-    }
-
-    private boolean lessEquals() {
-        match();
-        return currentToken.getName().equals("LESS_EQUALS");
-    }
-
-    private boolean notEquals() {
-        match();
-        return currentToken.getName().equals("NOT_EQUALS");
-    }
+    
 
     private boolean dot() {
         match();
